@@ -2,10 +2,10 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  }
+}
 
-  html,
-  body {
+html,
+body {
   width: 100%;
   height: 100%;
   background-color: #302e2e;
@@ -13,105 +13,95 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  }
-  
-  .container {
+}
 
-  width: 95%;
-  height: 95%;
+
+.container {
+
+  width: 97%;
+  height: 97%;
   background-color: #000000;
-  
+
   border-radius: 10px;
   box-shadow: 0 0 10px #c60505;
-  
+
   display: flex;
-  
+
   padding: 20px;
-  
-  }
-  
-  .img,
-  .login {
+
+}
+
+.img,
+.login {
   width: 50%;
   height: 100%;
-  }
-  
-  .img {
+}
+
+.img {
   background-image: url("./ChatGPT\ Image\ 16\ de\ out.\ de\ 2025\,\ 15_23_47.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size:contain;
-  
+  background-size: contain;
+
   background-color: #5b5858;
-  
-  }
-  
-  .login {
-    
+
+}
+
+.login {
   padding-left: 50px;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  }
-  
-  .login h1 {
-  color: #fff;
+}
+
+.login h1 {
+  color: #ff0000;
   margin-bottom: 15px;
-  }
-  
-  .login p {
-  color: #807d7d;
-  }
-  
-  form {
+}
+
+.login p {
+  color: #656565;
+}
+
+form {
   margin-top: 30px;
-  
+
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  }
-  
-  form input {
+}
+
+form input {
   padding: 10px 20px;
   background-color: #575757;
   outline: none;
   border: none;
-  color: #ffffff;
+  color: #2a2a2a;
   border-radius: 5px;
-  }
-  
-  form input::placeholder {
-  color: #fff;
-  }
-  
-  form #Nome,
-  form #CPF {
-  width: calc(80% - 10px);
-  }
-  
-  form #E-mail,
-  form #Senha {
-  width: calc(80% - 10px);
-  }
+}
 
-  .button {
-  width: 100%;
-  color: #fff;
-  background-color: #e50505;
- 
-  padding: 15px 40px;
-  border-radius: 5px;
-  }
-  
-  
-  
-  
-  
-  
-  
+form input::placeholder {
+  color: #161616;
+}
 
+form #Nome,
+form #idade {
+  width: calc(50% - 10px);
+}
 
-  
- 
+form #E-mail,
+form #Senha {
+  width: calc(100% - 10px);
+}
 
+form #Telefone,
+form #CPF {
+  width: calc(50% - 10px);
+}
+
+.cadastrar {
+  width: calc(100% - 40px);
+  height: 40px;
+  background-color: #3c3c3c;
+}

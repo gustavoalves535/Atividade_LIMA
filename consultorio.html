@@ -15,36 +15,46 @@
       
       <form action=""method="">
       <input type="text" name="Nome" id="Nome" placeholder="Nome"/>
+
+      <input type="text" name="idade" id="idade" placeholder="idade"/>
      
       <input type="email" name="E-mail" id="E-mail" placeholder="E-mail"/>
 
       <input type="Senha" name="Senha" id="Senha" placeholder="Senha" />
 
+      <input type="text" name="Telefone" id="Telefone" placeholder="Telefone" />
+
       <input type="text" name="CPF" id="CPF" placeholder="CPF" />
 
-      <p>Sexo</p>
+      <p>Selecione Seu Sexo///</p>
       
-      <input type="radio" name="sexo" id="masculino" />
-      <p> masculino </p>
+      <input type="radio" name="sexo" id=" masculino" />
+      <p> MASCULINO </p>
 
       <input type="radio" name="sexo" id="feminino" />
-      <p> feminino </p>
+      <p> FEMININO </p>
 
       <input type="radio" name="sexo" id="outro" />
-      <p> outro </p>
-      
-      <p> estados</p>
-      <input type="checkbox" name="estado" id="SP" />
-      <p> SP </p>
+      <p> Outro </p>
 
-      <input type="checkbox" name="estado" id="RJ" />
-      <p> RJ </p>
-      
+  <select name="Estado" id="Estado">
+        <option value="" disabled selected> selecione seu Estado </option>
+        <option value="SP">São Paulo</option>
+        <option value="RJ">Rio De Janeiro</option>
+        <option value="BH">Bahia</option>
+        <option value="MG">Minas gerais</option>
+  </select>
 
-      
-      <button class="button">cadastrar</button>
-    </form>
+
+        <button class="cadastrar">
+          <p>cadastrar</p>
+        </button>
+  
+      </form>
+ 
+   
     </div>
   </section>
+  
 </body>
 </html>
